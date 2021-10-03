@@ -1,6 +1,7 @@
 
 
 ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+#https://i0.wp.com/cdn.quantargo.com/assets/blog/2021-07-15-elon-musk-tweet-effect-dodge-coin/og.png
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 # Analise Multivariável  de Características de Tweets sobre  Comportamento das Criptomoedas
@@ -26,13 +27,14 @@ Comparar bolsas tradicionais com bitcoin/dogecoin, influência de tweets de Elon
 
 ## Tasks
 
-- [ ]   Pesquisar sobre análise sentimental em criptoativos
-- [ ]  Pesquisa sobre as features
-
-- [x] task list 1
-    - [ ] task list 2-1
-    - [ ] task list 2-2
-    - [ ] task list 2-3
+- [x]  Reunir, analisar e manipular os conjuntos de dados disponíveis 
+- [x]  Pesquisar referências dos métodos de predição do valor de criptomedas e bolsas de valores baseado em redes sociais
+- [x]  Realizar experimentações exploratórias iniciais para viabilidade do aprofundamento do problema e início da investigação e pesquisa
+- [ ]  Compreender o problema e verificar as soluções utilizadas pelo estado da arte
+- [ ]  Levantar e hipóteses e projetar uma análise de correlação entre as variáveis do problema
+- [ ]  Identificar, definir e selecionar relevantes características dos dados
+- [ ]  Analisar os métodos de análise de sentimento para predizer o comportamento das criptomoedas
+- [ ]  Escolher uma metodologia para realizar análise de sentimento baseado em alguma rede social
 
   
 ## Methodology
@@ -60,6 +62,11 @@ To deploy this cloud project run
    http://<remote_url>:8080/resource.
 `
 
+## Lessons Learned 
+
+To do.
+
+
 ## API Reference
 
 #### Get all items
@@ -86,9 +93,7 @@ To deploy this cloud project run
 
 Takes two numbers and returns the sum.
 
-## Lessons Learned 
 
-To do.
 
 ## References 🔗
 
@@ -102,15 +107,13 @@ To do.
 
 - [sandp500 - @camnugent](https://www.kaggle.com/camnugent/sandp500)
 
--  [bitcoin-tweets - @kaushiksuresh147](https://www.kaggle.com/kaushiksuresh147/bitcoin-tweets)
+- [bitcoin-tweets - @kaushiksuresh147](https://www.kaggle.com/kaushiksuresh147/bitcoin-tweets)
 
 - [ bitcoin-tweets-20160101-to-20190329 - @alaix14](https://www.kaggle.com/alaix14/bitcoin-tweets-20160101-to-20190329)
 
 - [cryptocurrencypricehistory](https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory?select=coin_Bitcoin.csv)
-
  
 - [mczielinski/bitcoin-historical-data](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
-
  
 - [dogecoin-historical-data](https://www.kaggle.com/dhruvildave/dogecoin-historical-data)
 
@@ -124,32 +127,25 @@ To do.
 
 - [temporal-behaviours](https://www.kaggle.com/tezdhar/temporal-behaviours)
 
-
 - [bitcoin-price-prediction-by-arima](https://www.kaggle.com/myonin/bitcoin-price-prediction-by-arima)
 
 - [bitcoin-dogecoin-on-rapids-and-elon-musk](https://www.kaggle.com/andradaolteanu/bitcoin-dogecoin-on-rapids-and-elon-musk)
 
+- [Panda Profiling Automatic EDA Ellon Musk](https://colab.research.google.com/drive/1-G_lyyqH4a81B1NF6J500yfrTrM9_4jJ)
   
-  
-
-International football results from 1872 to 2021
-
-  
-
-- [international-football-results-from-1872-to-2017](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017)
-
-  
-
-COVID-19 lockdown dates by country
-
-  
+- [international-football-results-from-1872-to-2017](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017)  
 
 - [covid19-lockdown-dates-by-country](https://www.kaggle.com/jcyzag/covid19-lockdown-dates-by-country)
+
+- [The Elon Musk Tweet Effect on Dogecoin DOGE](https://www.r-bloggers.com/2021/07/the-elon-musk-tweet-effect-on-dogecoin-doge/)
+
+- [https://www.r-bloggers.com/2021/02/causal-effect-of-elon-musk-tweets-on-dogecoin-price/](https://www.r-bloggers.com/2021/02/causal-effect-of-elon-musk-tweets-on-dogecoin-price/)
+
+- [Bitcoin and Twitter Sentiment](https://rstudio-pubs-static.s3.amazonaws.com/473326_bac13e3e87d141c38ff60cb85e85aa33.html)
 
   
 
 Base com números do twitter (correlacionar com cripto), número de menções gerais, pessoas relevantes
-
   
 
 - [elon-musk-tweets-2010-2021](https://www.kaggle.com/ayhmrba/elon-musk-tweets-2010-2021)
@@ -160,72 +156,72 @@ Base com números do twitter (correlacionar com cripto), número de menções ge
 
 - [stock-markettweets-lexicon-data](https://www.kaggle.com/utkarshxy/stock-markettweets-lexicon-data)
 
-  
-
-## Artigos
-
-- [https://www.sciencedirect.com/science/article/pii/S104244312030072X?casa_token=Cea3o6idTzkAAAAA:Q7DibQ2IIHxyPYh_aDAtQ2PzXaqmmOONvN5I61VpxWXPZR2UZWO0ErCetoFNw9kqrP_bBvBubjI](https://www.sciencedirect.com/science/article/pii/S104244312030072X?casa_token=Cea3o6idTzkAAAAA:Q7DibQ2IIHxyPYh_aDAtQ2PzXaqmmOONvN5I61VpxWXPZR2UZWO0ErCetoFNw9kqrP_bBvBubjI)
-
-- [https://scholar.smu.edu/datasciencereview/vol1/iss3/1/](https://scholar.smu.edu/datasciencereview/vol1/iss3/1/)
-
-- [https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12493](https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12493)
-
-- [https://www.researchgate.net/publication/279917417_Bitcoin_Spread_Prediction_Using_Social_And_Web_Search_Media](https://www.researchgate.net/publication/279917417_Bitcoin_Spread_Prediction_Using_Social_And_Web_Search_Media)  
-
-
-## Artigos (internet)
-
-  
-
-[https://rstudio-pubs-static.s3.amazonaws.com/473326_bac13e3e87d141c38ff60cb85e85aa33.html](https://rstudio-pubs-static.s3.amazonaws.com/473326_bac13e3e87d141c38ff60cb85e85aa33.html)
-
-[https://www.diva-portal.org/smash/get/diva2:1110776/FULLTEXT01.pdf](https://www.diva-portal.org/smash/get/diva2:1110776/FULLTEXT01.pdf)
-
-[https://scholar.smu.edu/cgi/viewcontent.cgi?article=1039&context=datasciencereview](https://scholar.smu.edu/cgi/viewcontent.cgi?article=1039&context=datasciencereview)
-
-[https://repositorio.iscte-iul.pt/handle/10071/22088](https://repositorio.iscte-iul.pt/handle/10071/22088)
-
-[https://www.r-bloggers.com/2021/07/the-elon-musk-tweet-effect-on-dogecoin-doge/](https://www.r-bloggers.com/2021/07/the-elon-musk-tweet-effect-on-dogecoin-doge/)
-
-[https://www.r-bloggers.com/2021/02/causal-effect-of-elon-musk-tweets-on-dogecoin-price/](https://www.r-bloggers.com/2021/02/causal-effect-of-elon-musk-tweets-on-dogecoin-price/)
-
-  
 
 ## Sentiment Analysis
 
-[https://medium.com/analytics-vidhya/how-to-build-a-bitcoin-sentiment-analysis-using-python-and-twitter-beb89e6ce0c8](https://medium.com/analytics-vidhya/how-to-build-a-bitcoin-sentiment-analysis-using-python-and-twitter-beb89e6ce0c8)
+- [how-to-build-a-bitcoin-sentiment-analysis-using-python-and-twitter](https://medium.com/analytics-vidhya/how-to-build-a-bitcoin-sentiment-analysis-using-python-and-twitter-beb89e6ce0c8)
 
-[https://github.com/Aaron-Paul/Bitcoin-Price-Twitter-Sentiment-Analysis](https://github.com/Aaron-Paul/Bitcoin-Price-Twitter-Sentiment-Analysis)
+- [Bitcoin-Price-Twitter-Sentiment-Analysis](https://github.com/Aaron-Paul/Bitcoin-Price-Twitter-Sentiment-Analysis)
 
-  
+- [pytorch-sentiment-analysis](https://github.com/bentrevett/pytorch-sentiment-analysis)
 
-https://github.com/bentrevett/pytorch-sentiment-analysis
 
-  
+## Artigos
 
-## Automatic EDA
+- [The predictive power of public Twitter sentiment for forecasting cryptocurrency prices](https://www.sciencedirect.com/science/article/abs/pii/S104244312030072X)
 
-https://colab.research.google.com/drive/1-G_lyyqH4a81B1NF6J500yfrTrM9_4jJ
+- [Cryptocurrency Price Prediction Using Tweet Volumes and Sentiment Analysis](https://scholar.smu.edu/datasciencereview/vol1/iss3/1/)
+
+- [Advanced social media sentiment analysis for short-term cryptocurrency price prediction](https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12493)
+
+- [Bitcoin Spread Prediction Using Social And Web Search Media](https://www.researchgate.net/publication/279917417_Bitcoin_Spread_Prediction_Using_Social_And_Web_Search_Media)  
+
+- [Cryptocurrency Price Prediction Using Tweet Volumes and Sentiment Analysis](https://scholar.smu.edu/cgi/viewcontent.cgi?article=1039&context=datasciencereview)
+
+- [Sentiment analysis algorithms and applications: A survey](https://www.sciencedirect.com/science/article/pii/S2090447914000550)
+
+- [Sentiment Analysis of Twitter Data](https://aclanthology.org/W11-0705.pdf)
+
+- [Twitter Sentiment Analysis: The Good the Bad and the OMG!](https://ojs.aaai.org/index.php/ICWSM/article/view/14185)
+
+
+## Dissertação
+
+- [Cryptocurrency analysis based on user-generated social media content](https://repositorio.iscte-iul.pt/handle/10071/22088)
+
+- [Predicting Bitcoin price fluctuation with Twitter sentiment analysis](https://www.diva-portal.org/smash/get/diva2:1110776/FULLTEXT01.pdf)
+
+- [O Impacto nos Mercados Financeiros dos Tweets do Presidente Norte Americano Donald Trump](https://iconline.ipleiria.pt/bitstream/10400.8/5544/1/Tese%20Mestrado%20-%20Paulo%20Malaquias.pdf)
+
+- [The Interplay between Social Media Sentiment and the Cryptocurrency Market](https://ethz.ch/content/dam/ethz/special-interest/mtec/chair-of-entrepreneurial-risks-dam/documents/dissertation/master%20thesis/Master%20Thesis%20Eisner_final.pdf)
+
+## API
+
+- [Twitter API](https://developer.twitter.com/en/docs/twitter-api)
+- [Twitter API v2: Early Access](https://developer.twitter.com/en/docs/twitter-api/early-access)
+
 
 ## Acknowledgements
 
-  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+- [Awesome README](https://github.com/matiassingers/awesome-readme)
+- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
   
+
 ## Authors
 
+- [Bruno dos Anjos - @Sivirino1](https://www.github.com/Sivirino01)
+- [Ravi Barreto - @ravibdf](https://www.github.com/ravibdf)
+- [Rafael Campello - @rafaelmcam](https://www.github.com/rafaelmcam)
 - [Richardson Bruno - @jcrbsa](https://www.github.com/jcrbsa)
-- [Bruno - @xxx](https://www.github.com/jcrbsa)
-- [Ravi - @yyy](https://www.github.com/jcrbsa)
-- [Edgar - @zzz](https://www.github.com/jcrbsa)
+
 
 ## Feedback
 
 If you have any feedback, please reach out to us at fake@fake.com
 
 
- ## License
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
