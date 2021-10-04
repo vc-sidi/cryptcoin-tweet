@@ -1,0 +1,6 @@
+- Fazer análise usando a base de dados de tweets gerais sobre bitcoin.
+- O seaborn possui diversos tipos de plots interessantes, usar vários deles, combinar coluna de fechamento, volume, numero de tweets, análise de sentimento geral etc...
+- Dia da semana influencia no preço? Ou final do mês?
+
+
+- Melhor não diminuir a base apenas com os dias que ElonMusk tweetou, usar a completa e colocar categorias de sentimento para cada tweet de celebridade/população, também considerar que um tweet em certo dia pode influenciar no preço de amanhã, e não apenas o do dia
