@@ -1,11 +1,34 @@
 
-
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
-#https://i0.wp.com/cdn.quantargo.com/assets/blog/2021-07-15-elon-musk-tweet-effect-dodge-coin/og.png
-
+<!-- Badges -->
+<!-- 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+-->
+
+<!-- #<img src="https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png" alt="dogcoin" class="center"/>
+![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png) -->
+
+<p align="center">
+<img src="https://i0.wp.com/cdn.quantargo.com/assets/blog/2021-07-15-elon-musk-tweet-effect-dodge-coin/og.png" alt="dogcoin" width="500px" height="300px" class="center"/>
+</p>
+
+<!-- https://i0.wp.com/cdn.quantargo.com/assets/blog/2021-07-15-elon-musk-tweet-effect-dodge-coin/og.png -->
+
+
 # Analise Multivariável  de Características de Tweets sobre  Comportamento das Criptomoedas
 
+
+# Topics
+  - [Description](README.md#Description)
+  - [Projeto e Repositório](README.md#Specification)
+  - [Configuração](README.md#Tasks)
+  - [Execução](README.md#Methodology)
+  - [Installation](README.md#Installations)
+  - [Usage/Examples](README.md#Usage/Examples)
+  - [Deployment](README.md#Deployment)
+  - [Lessons Learned](README.md#Lessons-Learned) 
+  - [API Reference](README.md#API-Reference)
+  - [References](README.mdReferences)
+  
 ## Description
 
 
