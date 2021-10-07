@@ -44,18 +44,19 @@ Comparar bolsas tradicionais com bitcoin/dogecoin, influência de tweets de Elon
 
 ## Specification
 
-- Specification 1
-- Specification 2
-- Specification 3
+- [x] Análise de influência de Tweets (Musk) sobre comportamento das criptomoedas (Bitcoin e Dogcoin)
+- [x] Análise do conjunto de Dados de Criptomoedas (Bitcoin, Dogcoin)
+- [x] Análise dos tweets usando análise de sentimento VADER
+- [x] Visualização de Dados
 
 ## Tasks
 
 - [x]  Reunir, analisar e manipular os conjuntos de dados disponíveis 
 - [x]  Pesquisar referências dos métodos de predição do valor de criptomedas e bolsas de valores baseado em redes sociais
 - [x]  Realizar experimentações exploratórias iniciais para viabilidade do aprofundamento do problema e início da investigação e pesquisa
-- [ ]  Compreender o problema e verificar as soluções utilizadas pelo estado da arte
-- [ ]  Levantar e hipóteses e projetar uma análise de correlação entre as variáveis do problema
-- [ ]  Identificar, definir e selecionar relevantes características dos dados
+- [X]  Compreender o problema e verificar as soluções utilizadas pelo estado da arte
+- [x]  Levantar e hipóteses e projetar uma análise de correlação entre as variáveis do problema
+- [X]  Identificar, definir e selecionar relevantes características dos dados
 - [ ]  Analisar os métodos de análise de sentimento para predizer o comportamento das criptomoedas
 - [ ]  Escolher uma metodologia para realizar análise de sentimento baseado em alguma rede social
 
