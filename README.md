@@ -14,39 +14,33 @@
 <!-- https://i0.wp.com/cdn.quantargo.com/assets/blog/2021-07-15-elon-musk-tweet-effect-dodge-coin/og.png -->
 
 
-# Analise Multivariável  de Características de Tweets sobre  Comportamento das Criptomoedas
+# Analise Multivariável de Características de Tweets sobre  Comportamento das Criptomoedas
 
 
 # Topics
-  - [Description](README.md#Description)
-  - [Projeto e Repositório](README.md#Specification)
-  - [Configuração](README.md#Tasks)
-  - [Execução](README.md#Methodology)
-  - [Installation](README.md#Installations)
+  - [Descrição](README.md#Descrição)
+  - [Especicação](README.md#Especificação)
+  - [Tarefas](README.md#Tasks)
+  - [Metologia](README.md#Methodology)
+  - [Instalação](README.md#Installations)
   - [Usage/Examples](README.md#Usage/Examples)
   - [Deployment](README.md#Deployment)
-  - [Lessons Learned](README.md#Lessons-Learned) 
+  - [Lições Aprendidas](README.md#Lessons-Learned) 
   - [API Reference](README.md#API-Reference)
   - [References](README.mdReferences)
   
-## Description
-
-
-Objetivo
+## Descrição
 
 Integração dos dados financeiros com outras bases, para ver a correlação entre o comportamento do mercado e o comportamento dos dados das outras bases
 
 Comparar bolsas tradicionais com bitcoin/dogecoin, influência de tweets de Elon Musk nas criptomoedas/falta de influência na SP500/apple, amazon, googl
 
-[TOCM]
 
-[TOC]
-
-## Specification
+## Especificação
 
 - :white_check_mark: Análise de influência de Tweets (Musk) sobre comportamento das criptomoedas (Bitcoin e Dogcoin)
 - :white_check_mark: Análise do conjunto de Dados de Criptomoedas (Bitcoin, Dogcoin)
-- :white_check_mark: Análise dos tweets usando análise de sentimento VADER
+- :white_check_mark: Análise dos tweets usando análise de sentimento _Valence Aware Dictionary and sEntiment Reasoner _(VADER)
 - :white_check_mark: Visualização de Dados
 
 ## Tasks
@@ -57,8 +51,8 @@ Comparar bolsas tradicionais com bitcoin/dogecoin, influência de tweets de Elon
 - :white_check_mark:  Compreender o problema e verificar as soluções utilizadas pelo estado da arte
 - :white_check_mark:  Levantar e hipóteses e projetar uma análise de correlação entre as variáveis do problema
 - :white_check_mark: Identificar, definir e selecionar relevantes características dos dados
-- [ ]  Analisar os métodos de análise de sentimento para predizer o comportamento das criptomoedas
-- [ ]  Escolher uma metodologia para realizar análise de sentimento baseado em alguma rede social
+- :black_square_button: Analisar os métodos de análise de sentimento para predizer o comportamento das criptomoedas
+- :black_square_button:  Escolher uma metodologia para realizar análise de sentimento baseado em alguma rede social
 
   
 ## Methodology
