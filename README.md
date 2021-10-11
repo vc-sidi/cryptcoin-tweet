@@ -44,19 +44,19 @@ Comparar bolsas tradicionais com bitcoin/dogecoin, influência de tweets de Elon
 
 ## Specification
 
-- [x] Análise de influência de Tweets (Musk) sobre comportamento das criptomoedas (Bitcoin e Dogcoin)
-- [x] Análise do conjunto de Dados de Criptomoedas (Bitcoin, Dogcoin)
-- [x] Análise dos tweets usando análise de sentimento VADER
-- [x] Visualização de Dados
+- :white_check_mark: Análise de influência de Tweets (Musk) sobre comportamento das criptomoedas (Bitcoin e Dogcoin)
+- :white_check_mark: Análise do conjunto de Dados de Criptomoedas (Bitcoin, Dogcoin)
+- :white_check_mark: Análise dos tweets usando análise de sentimento VADER
+- :white_check_mark: Visualização de Dados
 
 ## Tasks
 
-- [x]  Reunir, analisar e manipular os conjuntos de dados disponíveis 
-- [x]  Pesquisar referências dos métodos de predição do valor de criptomedas e bolsas de valores baseado em redes sociais
-- [x]  Realizar experimentações exploratórias iniciais para viabilidade do aprofundamento do problema e início da investigação e pesquisa
-- [X]  Compreender o problema e verificar as soluções utilizadas pelo estado da arte
-- [x]  Levantar e hipóteses e projetar uma análise de correlação entre as variáveis do problema
-- [X]  Identificar, definir e selecionar relevantes características dos dados
+- :white_check_mark:  Reunir, analisar e manipular os conjuntos de dados disponíveis 
+- :white_check_mark:  Pesquisar referências dos métodos de predição do valor de criptomedas e bolsas de valores baseado em redes sociais
+- :white_check_mark:  Realizar experimentações exploratórias iniciais para viabilidade do aprofundamento do problema e início da investigação e pesquisa
+- :white_check_mark:  Compreender o problema e verificar as soluções utilizadas pelo estado da arte
+- :white_check_mark:  Levantar e hipóteses e projetar uma análise de correlação entre as variáveis do problema
+- :white_check_mark: Identificar, definir e selecionar relevantes características dos dados
 - [ ]  Analisar os métodos de análise de sentimento para predizer o comportamento das criptomoedas
 - [ ]  Escolher uma metodologia para realizar análise de sentimento baseado em alguma rede social
 
