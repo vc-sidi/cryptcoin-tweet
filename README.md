@@ -14,14 +14,16 @@
 <!-- https://i0.wp.com/cdn.quantargo.com/assets/blog/2021-07-15-elon-musk-tweet-effect-dodge-coin/og.png -->
 
 
-# Analise Multivariável de Características de Tweets sobre  Comportamento das Criptomoedas
+# Análise Multivariável de Características de Tweets sobre  Comportamento das Criptomoedas
 
 
 # Topics
   - [Descrição](README.md#Descrição)
   - [Especicação](README.md#Especificação)
   - [Tarefas](README.md#Tasks)
-  - [Metologia](README.md#Methodology)
+  - [Datasets Testados](README.md#Datasets-Testados)
+  - [Descorbetas](README.md#Descorbetas)
+  - [Metodologia](README.md#Methodology)
   - [Instalação](README.md#Installations)
   - [Usage/Examples](README.md#Usage/Examples)
   - [Deployment](README.md#Deployment)
@@ -40,7 +42,7 @@ Comparar bolsas tradicionais com bitcoin/dogecoin, influência de tweets de Elon
 
 - :white_check_mark: Análise de influência de Tweets (Musk) sobre comportamento das criptomoedas (Bitcoin e Dogcoin)
 - :white_check_mark: Análise do conjunto de Dados de Criptomoedas (Bitcoin, Dogcoin)
-- :white_check_mark: Análise dos tweets usando análise de sentimento _Valence Aware Dictionary and sEntiment Reasoner _(VADER)
+- :white_check_mark: Análise dos tweets usando análise de sentimento Valence Aware Dictionary and sEntiment Reasoner (VADER)
 - :white_check_mark: Visualização de Dados
 
 ## Tasks
@@ -54,7 +56,24 @@ Comparar bolsas tradicionais com bitcoin/dogecoin, influência de tweets de Elon
 - :black_square_button: Analisar os métodos de análise de sentimento para predizer o comportamento das criptomoedas
 - :black_square_button:  Escolher uma metodologia para realizar análise de sentimento baseado em alguma rede social
 
-  
+## Datasets Testados
+
+- Dataset precos do bitcoin
+- Dataset de ellon musk tweets
+- Dataset geral tweets (2021)
+- Dataset geral tweets (2016-2019)
+
+## Descobertas
+
+- Não há interseção (dataset precos Bitcoin x dataset Ellon Musk) e não há influência dos twwets do ellon musk nos precos bitcoin 
+
+- Não Há interseção (dataset precos Dogcoin x dataset Ellon Musk) e não há influência dos twwets do  ellon musk nos precos dogcoin
+
+- Não há interseção (dataset precos Bitcoin x dataset geral tweets (2021), mas há influência dos tweets gerais(2021) nos preços bitcoin?
+
+- Há interseção  (dataset precos Bitcoin x dataset geral tweets (2016-2019) ? Há influência dos tweets gerais (2016-2019) nos preços Bitcoin?
+
+
 ## Methodology
 
 To do.
