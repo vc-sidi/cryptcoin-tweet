@@ -40,10 +40,11 @@ Comparar bolsas tradicionais com bitcoin/dogecoin, influência de tweets de Elon
 
 ## Especificação
 
-- :white_check_mark: Análise de influência de Tweets (Musk) sobre comportamento das criptomoedas (Bitcoin e Dogcoin)
-- :white_check_mark: Análise do conjunto de Dados de Criptomoedas (Bitcoin, Dogcoin)
-- :white_check_mark: Análise dos tweets usando análise de sentimento Valence Aware Dictionary and sEntiment Reasoner (VADER)
+- :white_check_mark: Análise do conjunto de dados dos tweets dos usuários do Twitter e das criptomoedas (Bitcoin, Dogcoin) 
+- :white_check_mark: Análise de influência dos tweets dos usuários (Geral, Elon Musk) do Twitter sobre comportamento das criptomoedas (Bitcoin e Dogcoin)
+- :white_check_mark: Análise dos tweets dos usuários  (Geral, Elon Musk) do Twitter usando análise de sentimento Valence Aware Dictionary and sEntiment Reasoner (VADER)
 - :white_check_mark: Visualização de Dados
+
 
 ## Tasks
 
@@ -56,22 +57,52 @@ Comparar bolsas tradicionais com bitcoin/dogecoin, influência de tweets de Elon
 - :black_square_button: Analisar os métodos de análise de sentimento para predizer o comportamento das criptomoedas
 - :black_square_button:  Escolher uma metodologia para realizar análise de sentimento baseado em alguma rede social
 
-## Datasets Testados
 
-- Dataset precos do bitcoin
-- Dataset de ellon musk tweets
-- Dataset geral tweets (2021)
-- Dataset geral tweets (2016-2019)
+## Datasets Utilizados
 
-## Descobertas
+- [Dataset](https://www.kaggle.com/mczielinski/bitcoin-historical-data?select=bitstampUSD_1-min_data_2012-01-01_to_2021-03-31.csv) do histórico de preços do Bitcoin
+- [Dataset](https://www.kaggle.com/dhruvildave/dogecoin-historical-data) do histórico de preços do Dogcoin
+- [Dataset](https://www.kaggle.com/ayhmrba/elon-musk-tweets-2010-2021) dos tweets do Ellon Musk no Twitter
+- [Dataset](https://www.kaggle.com/mczielinski/bitcoin-historical-data?select=bitstampUSD_1-min_data_2012-01-01_to_2021-03-31.csv) dos tweets dos usuários em geral (2021) no Twitter
+- [Dataset](https://www.kaggle.com/alaix14/bitcoin-tweets-20160101-to-20190329) dos tweets dos usuários em geral (2016-2019) no Twitter
 
-- Não há interseção (dataset precos Bitcoin x dataset Ellon Musk) e não há influência dos twwets do ellon musk nos precos bitcoin 
 
-- Não Há interseção (dataset precos Dogcoin x dataset Ellon Musk) e não há influência dos twwets do  ellon musk nos precos dogcoin
+## Hipóteses e Descobertas
 
-- Não há interseção (dataset precos Bitcoin x dataset geral tweets (2021), mas há influência dos tweets gerais(2021) nos preços bitcoin?
+- Interseção entre o histórico dos preços do Bitcoin e os tweets do Ellon Musk no Twitter e análise de sentimento sobre os tweets do Ellon Musk no Twitter
 
-- Há interseção  (dataset precos Bitcoin x dataset geral tweets (2016-2019) ? Há influência dos tweets gerais (2016-2019) nos preços Bitcoin?
+	- :white_check_mark: Há interseção entre o histórico dos preços do Bitcoin e os tweets do Ellon Musk no Twitter?
+		- R: Não ná interseção.
+		
+	- :white_check_mark: Baseado na análise de sentimento,  há influência dos tweets do Ellon Musk no Twitter sobre o histórico dos preços do Bitcoin?
+		- R: Não há influência.
+
+		
+- Interseção entre o histórico dos precos Dogcoin e os tweets do Ellon Musk no Twitter e análise de sentimento sobre  tweets do Ellon Musk no Twitter 
+
+	- :white_check_mark: Há interseção entre o histórico dos preços Dogcoin e os tweets do Ellon Musk no Twitter?
+		- R: Não ná interseção.
+
+	- :white_check_mark: Baseado na análise de sentimento, há influência dos tweets do Ellon Musk no Twitter sobre o histórico dos preços do Dogcoin ?
+		- R: Não há influência.
+
+	
+- Interseção entre o histórico dos precos Bitcoin e tweets dos usuários em geral (2021) no Twitter e análise de sentimento  sobre tweets dos usuários em geral (2021) no Twitter
+
+	- :white_check_mark: Há interseção entre o histórico dos precos Bitcoin e tweets dos usuários em geral (2021) no Twitter?
+		- R: Não há interseção.
+		
+	- :black_square_button: Baseado na análise de sentimento, há influência dos tweets gerais (2021) no Twitter nos preços Bitcoin?
+		- R: 
+
+
+- Interseção e análise de sentimento entre o histórico dos preços Bitcoin e tweets dos usuários em geral (2016-2019)  análise de sentimento  sobre tweets dos usuários em geral (2016-2019) no Twitter?
+
+	- :black_square_button:  Há interseção entre o histórico dos preços Bitcoin e tweets dos usuários em geral (2016-2019) no Twitter?
+		-  R: 
+	
+	- :white_check_mark: Baseado na análise de sentimento, há influência dos tweets gerais (2016-2019)  no Twitter nos  preços Bitcoin?
+		-  R: Não há influência.
 
 
 ## Methodology
